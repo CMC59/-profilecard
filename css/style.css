@@ -1,0 +1,131 @@
+.attribution {
+ font-size: 11px; text-align: center; }
+
+.attribution a {
+ color: hsl(228, 45%, 44%); }
+
+html {
+    
+}
+body {
+    background-color: hsl(185, 75%, 39%);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13%;
+  
+    
+ }
+.haut {
+    background-image: url("../images/bg-pattern-top.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    
+}
+.tete {
+    background-image: url("../images/bg-pattern-card.svg");
+    width: 100%;
+    height: 150%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.divdubas {
+display: flex;
+    border-top: rgb(214, 204, 204) solid 1px;
+  flex-direction:row;
+  justify-content: center;
+ align-content: space-around;
+ 
+}
+.wrapper {
+    position: relative;
+     display: grid;
+     width: 400px;
+     height: 550px;
+     background-color:white;
+     border-radius: 25px;
+     text-align: center;
+     align-items: center;
+     box-shadow:  0 0 9em grey;
+ }
+ .divi {
+    padding-right: 16%;
+    padding-top: 5%;
+ }
+ .divi2 {
+    padding-top: 5%;
+ }
+ .divi3 {
+    padding-left: 16%;
+    padding-top: 5%;
+ }
+.name {
+    font-size: 28px;
+     font-weight: 600;
+     padding-right: 10px;
+     font-family: "Kumbh Sans";
+    } 
+.age {
+    font-size: 28px;
+    font-weight: 400;
+    color: grey;
+    font-family: "Kumbh Sans";
+}
+.lieu {  
+   font-weight: 500;
+   color: grey;
+   font-size: 20px;
+   padding-top: 10px;
+   font-family: "Kumbh Sans";
+ }
+ .phot {
+     border-radius: 50px;
+     border: solid white 5px;
+
+ }
+ .photo {
+     position: absolute;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    left: 38%;
+    top: 80px;
+ }
+ .divdumilieu{
+    margin-top: 60px;
+    height: 60px;
+ }
+p {
+    font-size: 24px;
+    font-weight: 900;
+    font-family: "Kumbh Sans";
+}
+@font-face {
+    font-family: "Kumbh Sans";
+    src: url("https://fonts.google.com/specimen/Kumbh+Sans");
+  }
+.para {
+    font-weight: 400;
+    font-size: 18px;
+    color: grey;
+
+}
+@media screen and (max-width: 375px) {
+    .wrapper {
+    width: auto;
+    }
+    .photo {
+        position: absolute;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     right: 80px;
+    }
+    p {
+        font-size: 15px;
+    }
+    .para {
+        font-size: 12px;
+    }
+}
